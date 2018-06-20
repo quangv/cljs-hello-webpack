@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+      "build": "clj -m cljs.main -co build.edn -v -c",
+      "serve": "clj -m cljs.main -s"
+  },
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
